@@ -9,3 +9,6 @@ it doesn't steal your money, or do anything amusing that gains
 national attention. If you don't trust me,
 read the horribly constructed Objective-C yourself, or
 don't use it.
+
+It requires the Accessibility API to enabled,
+or for you to trust the application.
