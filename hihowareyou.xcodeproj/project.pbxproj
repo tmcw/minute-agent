@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911F01B2148C7F8F00ACF7F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */; };
+		911F01BC148C7F8F00ACF7F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 911F01BA148C7F8F00ACF7F9 /* InfoPlist.strings */; };
+		911F01BE148C7F8F00ACF7F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F01BD148C7F8F00ACF7F9 /* main.m */; };
+		911F01C2148C7F8F00ACF7F9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 911F01C0148C7F8F00ACF7F9 /* Credits.rtf */; };
+		911F01C5148C7F8F00ACF7F9 /* HHAYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F01C4148C7F8F00ACF7F9 /* HHAYAppDelegate.m */; };
+		911F01C8148C7F8F00ACF7F9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911F01C6148C7F8F00ACF7F9 /* MainMenu.xib */; };
+		911F01D0148C7F9000ACF7F9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F01CF148C7F9000ACF7F9 /* SenTestingKit.framework */; };
+		911F01D1148C7F9000ACF7F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */; };
+		911F01D9148C7F9000ACF7F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */; };
+		911F01DC148C7F9000ACF7F9 /* hihowareyouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		911F01D2148C7F9000ACF7F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 911F01A4148C7F8F00ACF7F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 911F01AC148C7F8F00ACF7F9;
+			remoteInfo = hihowareyou;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		911F01AD148C7F8F00ACF7F9 /* hihowareyou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hihowareyou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		911F01B4148C7F8F00ACF7F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		911F01B5148C7F8F00ACF7F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		911F01B6148C7F8F00ACF7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		911F01B9148C7F8F00ACF7F9 /* hihowareyou-Info.plist */ = {isa = PBXFileReference; path = "hihowareyou-Info.plist"; sourceTree = "<group>"; };
+		911F01BB148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		911F01BD148C7F8F00ACF7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		911F01BF148C7F8F00ACF7F9 /* hihowareyou-Prefix.pch */ = {isa = PBXFileReference; path = "hihowareyou-Prefix.pch"; sourceTree = "<group>"; };
+		911F01C1148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		911F01C3148C7F8F00ACF7F9 /* HHAYAppDelegate.h */ = {isa = PBXFileReference; path = HHAYAppDelegate.h; sourceTree = "<group>"; };
+		911F01C4148C7F8F00ACF7F9 /* HHAYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAYAppDelegate.m; sourceTree = "<group>"; };
+		911F01C7148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		911F01CE148C7F9000ACF7F9 /* hihowareyouTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hihowareyouTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		911F01CF148C7F9000ACF7F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		911F01D6148C7F9000ACF7F9 /* hihowareyouTests-Info.plist */ = {isa = PBXFileReference; path = "hihowareyouTests-Info.plist"; sourceTree = "<group>"; };
+		911F01D8148C7F9000ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		911F01DA148C7F9000ACF7F9 /* hihowareyouTests.h */ = {isa = PBXFileReference; path = hihowareyouTests.h; sourceTree = "<group>"; };
+		911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hihowareyouTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		911F01AA148C7F8F00ACF7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01B2148C7F8F00ACF7F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911F01CA148C7F9000ACF7F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01D0148C7F9000ACF7F9 /* SenTestingKit.framework in Frameworks */,
+				911F01D1148C7F9000ACF7F9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		911F01A2148C7F8F00ACF7F9 = {
+			isa = PBXGroup;
+			children = (
+				911F01B7148C7F8F00ACF7F9 /* hihowareyou */,
+				911F01D4148C7F9000ACF7F9 /* hihowareyouTests */,
+				911F01B0148C7F8F00ACF7F9 /* Frameworks */,
+				911F01AE148C7F8F00ACF7F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		911F01AE148C7F8F00ACF7F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				911F01AD148C7F8F00ACF7F9 /* hihowareyou.app */,
+				911F01CE148C7F9000ACF7F9 /* hihowareyouTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		911F01B0148C7F8F00ACF7F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */,
+				911F01CF148C7F9000ACF7F9 /* SenTestingKit.framework */,
+				911F01B3148C7F8F00ACF7F9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		911F01B3148C7F8F00ACF7F9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911F01B4148C7F8F00ACF7F9 /* AppKit.framework */,
+				911F01B5148C7F8F00ACF7F9 /* CoreData.framework */,
+				911F01B6148C7F8F00ACF7F9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		911F01B7148C7F8F00ACF7F9 /* hihowareyou */ = {
+			isa = PBXGroup;
+			children = (
+				911F01C3148C7F8F00ACF7F9 /* HHAYAppDelegate.h */,
+				911F01C4148C7F8F00ACF7F9 /* HHAYAppDelegate.m */,
+				911F01C6148C7F8F00ACF7F9 /* MainMenu.xib */,
+				911F01B8148C7F8F00ACF7F9 /* Supporting Files */,
+			);
+			path = hihowareyou;
+			sourceTree = "<group>";
+		};
+		911F01B8148C7F8F00ACF7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				911F01B9148C7F8F00ACF7F9 /* hihowareyou-Info.plist */,
+				911F01BA148C7F8F00ACF7F9 /* InfoPlist.strings */,
+				911F01BD148C7F8F00ACF7F9 /* main.m */,
+				911F01BF148C7F8F00ACF7F9 /* hihowareyou-Prefix.pch */,
+				911F01C0148C7F8F00ACF7F9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		911F01D4148C7F9000ACF7F9 /* hihowareyouTests */ = {
+			isa = PBXGroup;
+			children = (
+				911F01DA148C7F9000ACF7F9 /* hihowareyouTests.h */,
+				911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */,
+				911F01D5148C7F9000ACF7F9 /* Supporting Files */,
+			);
+			path = hihowareyouTests;
+			sourceTree = "<group>";
+		};
+		911F01D5148C7F9000ACF7F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				911F01D6148C7F9000ACF7F9 /* hihowareyouTests-Info.plist */,
+				911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		911F01AC148C7F8F00ACF7F9 /* hihowareyou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911F01DF148C7F9000ACF7F9 /* Build configuration list for PBXNativeTarget "hihowareyou" */;
+			buildPhases = (
+				911F01A9148C7F8F00ACF7F9 /* Sources */,
+				911F01AA148C7F8F00ACF7F9 /* Frameworks */,
+				911F01AB148C7F8F00ACF7F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hihowareyou;
+			productName = hihowareyou;
+			productReference = 911F01AD148C7F8F00ACF7F9 /* hihowareyou.app */;
+			productType = "com.apple.product-type.application";
+		};
+		911F01CD148C7F9000ACF7F9 /* hihowareyouTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911F01E2148C7F9000ACF7F9 /* Build configuration list for PBXNativeTarget "hihowareyouTests" */;
+			buildPhases = (
+				911F01C9148C7F9000ACF7F9 /* Sources */,
+				911F01CA148C7F9000ACF7F9 /* Frameworks */,
+				911F01CB148C7F9000ACF7F9 /* Resources */,
+				911F01CC148C7F9000ACF7F9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				911F01D3148C7F9000ACF7F9 /* PBXTargetDependency */,
+			);
+			name = hihowareyouTests;
+			productName = hihowareyouTests;
+			productReference = 911F01CE148C7F9000ACF7F9 /* hihowareyouTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		911F01A4148C7F8F00ACF7F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 911F01A7148C7F8F00ACF7F9 /* Build configuration list for PBXProject "hihowareyou" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 911F01A2148C7F8F00ACF7F9;
+			productRefGroup = 911F01AE148C7F8F00ACF7F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				911F01AC148C7F8F00ACF7F9 /* hihowareyou */,
+				911F01CD148C7F9000ACF7F9 /* hihowareyouTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		911F01AB148C7F8F00ACF7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01BC148C7F8F00ACF7F9 /* InfoPlist.strings in Resources */,
+				911F01C2148C7F8F00ACF7F9 /* Credits.rtf in Resources */,
+				911F01C8148C7F8F00ACF7F9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911F01CB148C7F9000ACF7F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01D9148C7F9000ACF7F9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		911F01CC148C7F9000ACF7F9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		911F01A9148C7F8F00ACF7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01BE148C7F8F00ACF7F9 /* main.m in Sources */,
+				911F01C5148C7F8F00ACF7F9 /* HHAYAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911F01C9148C7F9000ACF7F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				911F01DC148C7F9000ACF7F9 /* hihowareyouTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		911F01D3148C7F9000ACF7F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 911F01AC148C7F8F00ACF7F9 /* hihowareyou */;
+			targetProxy = 911F01D2148C7F9000ACF7F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		911F01BA148C7F8F00ACF7F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911F01BB148C7F8F00ACF7F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		911F01C0148C7F8F00ACF7F9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911F01C1148C7F8F00ACF7F9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		911F01C6148C7F8F00ACF7F9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911F01C7148C7F8F00ACF7F9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				911F01D8148C7F9000ACF7F9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		911F01DD148C7F9000ACF7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		911F01DE148C7F9000ACF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		911F01E0148C7F9000ACF7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
+				INFOPLIST_FILE = "hihowareyou/hihowareyou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		911F01E1148C7F9000ACF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
+				INFOPLIST_FILE = "hihowareyou/hihowareyou-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		911F01E3148C7F9000ACF7F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hihowareyou.app/Contents/MacOS/hihowareyou";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
+				INFOPLIST_FILE = "hihowareyouTests/hihowareyouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		911F01E4148C7F9000ACF7F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/hihowareyou.app/Contents/MacOS/hihowareyou";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
+				INFOPLIST_FILE = "hihowareyouTests/hihowareyouTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		911F01A7148C7F8F00ACF7F9 /* Build configuration list for PBXProject "hihowareyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911F01DD148C7F9000ACF7F9 /* Debug */,
+				911F01DE148C7F9000ACF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911F01DF148C7F9000ACF7F9 /* Build configuration list for PBXNativeTarget "hihowareyou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911F01E0148C7F9000ACF7F9 /* Debug */,
+				911F01E1148C7F9000ACF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		911F01E2148C7F9000ACF7F9 /* Build configuration list for PBXNativeTarget "hihowareyouTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				911F01E3148C7F9000ACF7F9 /* Debug */,
+				911F01E4148C7F9000ACF7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 911F01A4148C7F8F00ACF7F9 /* Project object */;
+}
