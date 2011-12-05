@@ -8,7 +8,16 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface HHAYAppDelegate : NSObject <NSApplicationDelegate>
+@interface HHAYAppDelegate : NSObject <NSApplicationDelegate> {
+    AXUIElementRef			    _systemWideElement;
+    NSString *logPath;
+    NSDate *now;
+    long tickStrokes;
+    long tick;
+    long nextTick;
+    NSCalendar *calendar;
+    NSFileHandle *output;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

@@ -17,6 +17,7 @@
 		911F01D1148C7F9000ACF7F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */; };
 		911F01D9148C7F9000ACF7F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */; };
 		911F01DC148C7F9000ACF7F9 /* hihowareyouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */; };
+		91AAA375148C82ED00C71542 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAA374148C82ED00C71542 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +36,21 @@
 		911F01B4148C7F8F00ACF7F9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		911F01B5148C7F8F00ACF7F9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		911F01B6148C7F8F00ACF7F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		911F01B9148C7F8F00ACF7F9 /* hihowareyou-Info.plist */ = {isa = PBXFileReference; path = "hihowareyou-Info.plist"; sourceTree = "<group>"; };
+		911F01B9148C7F8F00ACF7F9 /* hihowareyou-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hihowareyou-Info.plist"; sourceTree = "<group>"; };
 		911F01BB148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		911F01BD148C7F8F00ACF7F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		911F01BF148C7F8F00ACF7F9 /* hihowareyou-Prefix.pch */ = {isa = PBXFileReference; path = "hihowareyou-Prefix.pch"; sourceTree = "<group>"; };
+		911F01BF148C7F8F00ACF7F9 /* hihowareyou-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hihowareyou-Prefix.pch"; sourceTree = "<group>"; };
 		911F01C1148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		911F01C3148C7F8F00ACF7F9 /* HHAYAppDelegate.h */ = {isa = PBXFileReference; path = HHAYAppDelegate.h; sourceTree = "<group>"; };
+		911F01C3148C7F8F00ACF7F9 /* HHAYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAYAppDelegate.h; sourceTree = "<group>"; };
 		911F01C4148C7F8F00ACF7F9 /* HHAYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAYAppDelegate.m; sourceTree = "<group>"; };
 		911F01C7148C7F8F00ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		911F01CE148C7F9000ACF7F9 /* hihowareyouTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hihowareyouTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911F01CF148C7F9000ACF7F9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		911F01D6148C7F9000ACF7F9 /* hihowareyouTests-Info.plist */ = {isa = PBXFileReference; path = "hihowareyouTests-Info.plist"; sourceTree = "<group>"; };
+		911F01D6148C7F9000ACF7F9 /* hihowareyouTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hihowareyouTests-Info.plist"; sourceTree = "<group>"; };
 		911F01D8148C7F9000ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		911F01DA148C7F9000ACF7F9 /* hihowareyouTests.h */ = {isa = PBXFileReference; path = hihowareyouTests.h; sourceTree = "<group>"; };
+		911F01DA148C7F9000ACF7F9 /* hihowareyouTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hihowareyouTests.h; sourceTree = "<group>"; };
 		911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hihowareyouTests.m; sourceTree = "<group>"; };
+		91AAA374148C82ED00C71542 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91AAA375148C82ED00C71542 /* Carbon.framework in Frameworks */,
 				911F01B2148C7F8F00ACF7F9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +78,7 @@
 		911F01A2148C7F8F00ACF7F9 = {
 			isa = PBXGroup;
 			children = (
+				91AAA374148C82ED00C71542 /* Carbon.framework */,
 				911F01B7148C7F8F00ACF7F9 /* hihowareyou */,
 				911F01D4148C7F9000ACF7F9 /* hihowareyouTests */,
 				911F01B0148C7F8F00ACF7F9 /* Frameworks */,
@@ -371,6 +375,7 @@
 				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
 				INFOPLIST_FILE = "hihowareyou/hihowareyou-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,6 +387,7 @@
 				GCC_PREFIX_HEADER = "hihowareyou/hihowareyou-Prefix.pch";
 				INFOPLIST_FILE = "hihowareyou/hihowareyou-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -433,6 +439,7 @@
 				911F01E1148C7F9000ACF7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911F01E2148C7F9000ACF7F9 /* Build configuration list for PBXNativeTarget "hihowareyouTests" */ = {
 			isa = XCConfigurationList;
@@ -441,6 +448,7 @@
 				911F01E4148C7F9000ACF7F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
