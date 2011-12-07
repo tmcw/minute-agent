@@ -17,6 +17,8 @@
 		911F01D1148C7F9000ACF7F9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911F01B1148C7F8F00ACF7F9 /* Cocoa.framework */; };
 		911F01D9148C7F9000ACF7F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */; };
 		911F01DC148C7F9000ACF7F9 /* hihowareyouTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */; };
+		912EA4F8148F090E0068B9C9 /* hhaytiny.png in Resources */ = {isa = PBXBuildFile; fileRef = 912EA4F7148F090E0068B9C9 /* hhaytiny.png */; };
+		91814904148F048A00051A85 /* HHAYController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91814903148F048A00051A85 /* HHAYController.m */; };
 		91AAA375148C82ED00C71542 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAA374148C82ED00C71542 /* Carbon.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +52,9 @@
 		911F01D8148C7F9000ACF7F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		911F01DA148C7F9000ACF7F9 /* hihowareyouTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hihowareyouTests.h; sourceTree = "<group>"; };
 		911F01DB148C7F9000ACF7F9 /* hihowareyouTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hihowareyouTests.m; sourceTree = "<group>"; };
+		912EA4F7148F090E0068B9C9 /* hhaytiny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hhaytiny.png; sourceTree = "<group>"; };
+		91814902148F048A00051A85 /* HHAYController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAYController.h; sourceTree = "<group>"; };
+		91814903148F048A00051A85 /* HHAYController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAYController.m; sourceTree = "<group>"; };
 		91AAA374148C82ED00C71542 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -118,10 +123,13 @@
 		911F01B7148C7F8F00ACF7F9 /* hihowareyou */ = {
 			isa = PBXGroup;
 			children = (
+				912EA4FA148F09400068B9C9 /* Resources */,
 				911F01C3148C7F8F00ACF7F9 /* HHAYAppDelegate.h */,
 				911F01C4148C7F8F00ACF7F9 /* HHAYAppDelegate.m */,
 				911F01C6148C7F8F00ACF7F9 /* MainMenu.xib */,
 				911F01B8148C7F8F00ACF7F9 /* Supporting Files */,
+				91814902148F048A00051A85 /* HHAYController.h */,
+				91814903148F048A00051A85 /* HHAYController.m */,
 			);
 			path = hihowareyou;
 			sourceTree = "<group>";
@@ -155,6 +163,14 @@
 				911F01D7148C7F9000ACF7F9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		912EA4FA148F09400068B9C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				912EA4F7148F090E0068B9C9 /* hhaytiny.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +246,7 @@
 				911F01BC148C7F8F00ACF7F9 /* InfoPlist.strings in Resources */,
 				911F01C2148C7F8F00ACF7F9 /* Credits.rtf in Resources */,
 				911F01C8148C7F8F00ACF7F9 /* MainMenu.xib in Resources */,
+				912EA4F8148F090E0068B9C9 /* hhaytiny.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +283,7 @@
 			files = (
 				911F01BE148C7F8F00ACF7F9 /* main.m in Sources */,
 				911F01C5148C7F8F00ACF7F9 /* HHAYAppDelegate.m in Sources */,
+				91814904148F048A00051A85 /* HHAYController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
