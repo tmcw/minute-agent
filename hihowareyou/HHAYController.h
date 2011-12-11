@@ -8,6 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
-@interface HHAYController : NSObject
-
+@interface HHAYController : NSObject {
+    // UI
+    NSStatusItem *statusItem;
+    NSMenu *menu;
+    NSMenuItem *quitMI;
+    NSMenuItem *aboutMI;
+    NSImage *tiny;
+    
+    // Not UI
+    NSString *logPath;
+    NSString *dateString;
+    
+    NSTimeInterval since;
+    NSDate *now;
+    
+    long tickStrokes;
+    long lastTick;
+    
+    NSFileHandle *output;
+}
+@property (retain) NSDate* then;
 @end
