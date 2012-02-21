@@ -21,7 +21,6 @@
 		91814904148F048A00051A85 /* HHAYController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91814903148F048A00051A85 /* HHAYController.m */; };
 		91AAA375148C82ED00C71542 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91AAA374148C82ED00C71542 /* Carbon.framework */; };
 		91B5A77114AB893000F6DBB3 /* icon-raw.icns in Resources */ = {isa = PBXBuildFile; fileRef = 91B5A77014AB893000F6DBB3 /* icon-raw.icns */; };
-		91B5A77414AB897800F6DBB3 /* icon-raw (1).icns in Resources */ = {isa = PBXBuildFile; fileRef = 91B5A77314AB897800F6DBB3 /* icon-raw (1).icns */; };
 		91B5A77614AB89D500F6DBB3 /* icon-raw-2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 91B5A77514AB89D500F6DBB3 /* icon-raw-2.icns */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +59,6 @@
 		91814903148F048A00051A85 /* HHAYController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAYController.m; sourceTree = "<group>"; };
 		91AAA374148C82ED00C71542 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		91B5A77014AB893000F6DBB3 /* icon-raw.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-raw.icns"; sourceTree = "<group>"; };
-		91B5A77314AB897800F6DBB3 /* icon-raw (1).icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-raw (1).icns"; sourceTree = "<group>"; };
 		91B5A77514AB89D500F6DBB3 /* icon-raw-2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "icon-raw-2.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +87,6 @@
 		911F01A2148C7F8F00ACF7F9 = {
 			isa = PBXGroup;
 			children = (
-				91B5A77314AB897800F6DBB3 /* icon-raw (1).icns */,
 				91B5A77014AB893000F6DBB3 /* icon-raw.icns */,
 				91AAA374148C82ED00C71542 /* Carbon.framework */,
 				911F01B7148C7F8F00ACF7F9 /* hihowareyou */,
@@ -257,7 +254,6 @@
 				911F01C8148C7F8F00ACF7F9 /* MainMenu.xib in Resources */,
 				912EA4F8148F090E0068B9C9 /* hhaytiny.png in Resources */,
 				91B5A77114AB893000F6DBB3 /* icon-raw.icns in Resources */,
-				91B5A77414AB897800F6DBB3 /* icon-raw (1).icns in Resources */,
 				91B5A77614AB89D500F6DBB3 /* icon-raw-2.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
