@@ -18,7 +18,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     HHAYController *hhay = [HHAYController alloc];
-    [hhay init];
+    [[hhay init] autorelease];
 }
 
 @end

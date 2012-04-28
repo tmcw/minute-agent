@@ -10,6 +10,4 @@
 
 @interface HHAYAppDelegate : NSObject <NSApplicationDelegate>
 
-- (IBAction)saveAction:(id)sender;
-
 @end

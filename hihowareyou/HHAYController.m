@@ -46,7 +46,7 @@
 
         [statusItem setMenu:menu];
         [statusItem retain];
-        [statusItem setToolTip:@"hi how are you?"];
+        [statusItem setToolTip:@"minute-agent"];
         [statusItem setImage:tiny];
         [statusItem setHighlightMode:YES];
         // Set up the menu
@@ -65,19 +65,44 @@
     
     logPath = [@"~/log/keystrokes.log"
         stringByExpandingTildeInPath];
+    
+    NSString *logDirPath = [@"~/log/"
+               stringByExpandingTildeInPath];
 
     output = [NSFileHandle
         fileHandleForWritingAtPath:logPath];
     
     if (output == nil) {
-        NSLog(@"Output was nil");
         NSAlert *alert = [[[NSAlert alloc] init] autorelease];
         [alert addButtonWithTitle:@"OK"];
-        [alert addButtonWithTitle:@"Cancel"];
+        [alert addButtonWithTitle:@"Quit"];
         [alert setMessageText:@"It looks like this is the first time you're\
-            using hi how are you."];
-        [alert setInformativeText:@"Click OK to create ~/log/keystrokes.log."];
+            using minute-agent."];
+        [alert setInformativeText:[NSString stringWithFormat:@"Click OK to create %@.", logPath]];
         [alert setAlertStyle:NSWarningAlertStyle];
+        NSInteger result = [alert runModal];
+        if (result == 1000) {
+            // create directory
+            NSFileManager *filemgr;
+            
+            filemgr = [NSFileManager defaultManager];
+            [filemgr createDirectoryAtPath:logDirPath withIntermediateDirectories:YES attributes:nil error:nil];
+            BOOL success = [filemgr createFileAtPath:logPath contents:[@"minute,strokes\n" dataUsingEncoding:NSUTF8StringEncoding] attributes:nil];
+
+            if (success == YES) {
+                output = [NSFileHandle
+                          fileHandleForWritingAtPath:logPath];
+            } else {
+                NSAlert *alert = [[[NSAlert alloc] init] autorelease];
+                [alert setMessageText:@"Could not create file."];
+                [alert setAlertStyle:NSWarningAlertStyle];
+                [alert addButtonWithTitle:@"Quit"];
+                [alert runModal];
+                [NSApp terminate:self];
+            }
+        } else {
+            [NSApp terminate:self];
+        }
     }
 
     [output seekToEndOfFile];
