@@ -1,7 +1,10 @@
-Hi, How Are You?
+# minute-agent
+
+You can compile from source here, but you probably want to just [download a pre-built binary](https://github.com/tmcw/minute-agent/downloads)
+to get this working.
 
 It's a keycounter that you install on your OSX
-computer. It fills in a log at ~/log/keystrokes.log with
+computer. It fills in a log at `~/Documents/minute/keystrokes.log` with
 the number of keystrokes you make every minute.
 
 All it does is count keystrokes. Unlike a keylogger,
