@@ -1,6 +1,4 @@
-# minute-agent
-
-This is a keycounter, made to record computer usage for the purpose of visualization and analysis.
+A keycounter, made to record one-dimensional data of computer usage for the purpose of visualization and analysis.
 
 ## Use it with
 
