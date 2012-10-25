@@ -1,14 +1,20 @@
 # minute-agent
 
+This is a keycounter, made to record computer usage for the purpose of visualization and analysis.
+
+## Use it with
+
+* [minute](https://github.com/tmcw/minute)
+* [Sleep Chart](https://gist.github.com/3955066)
+
+## Developers
+
 You can compile from source here, but you probably want to just [download a pre-built binary](https://github.com/tmcw/minute-agent/downloads)
 to get this working.
 
-This is intended to work in conjunction with [minute](https://github.com/tmcw/minute),
-an example visualization that I built, or with a visualization of your
-choice that reads its simple CSV file format.
+## What it Does, Technically
 
-It's a keycounter that you install on your OSX
-computer. It fills in a log at `~/Documents/minute/keystrokes.log` with
+It fills in a log at `~/Documents/minute/keystrokes.log` with
 the number of keystrokes you make every minute.
 
 All it does is count keystrokes. Unlike a keylogger,
