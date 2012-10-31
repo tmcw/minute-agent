@@ -5,6 +5,13 @@ A keycounter, made to record one-dimensional data of computer usage for the purp
 * [minute](https://github.com/tmcw/minute)
 * [Sleep Chart](https://gist.github.com/3955066)
 
+## How to Use it
+
+Download the binary (see below), and run it. It'll record keystrokes at `~/Documents/minute/keystrokes.log` in a
+CSV document. In order for this to work, you need to enable access for assistive devices:
+
+![](http://farm9.staticflickr.com/8184/8141535663_8c690914d1_z.jpg)
+
 ## Developers
 
 You can compile from source here, but you probably want to just [download a pre-built binary](https://github.com/tmcw/minute-agent/downloads)
