@@ -2,8 +2,20 @@ A keycounter, made to record one-dimensional data of computer usage for the purp
 
 ## Use it with
 
-* [minute](https://github.com/tmcw/minute)
-* [Sleep Chart](https://gist.github.com/3955066)
+![](http://macwright.org/graphics/minute_new.png)
+
+[minute](https://github.com/tmcw/minute) is the original - it uses
+[d3js](http://d3js.org/) to render minute output in-browser with some interactivity.
+
+![](http://farm9.staticflickr.com/8045/8122970298_240635ef10_c.jpg)
+
+[Sleep Chart](https://gist.github.com/3955066) calculates hours of sleep
+based on keystroke gaps. Depressing, right?
+
+![](http://farm9.staticflickr.com/8467/8123037480_a3c6af9f04_z.jpg)
+
+[basically.js](https://gist.github.com/3955198) is a non-interactive but
+faster minute visualization based on [node-canvas](https://github.com/LearnBoost/node-canvas).
 
 ## How to Use it
 
