@@ -17,6 +17,11 @@ based on keystroke gaps. Depressing, right?
 [basically.js](https://gist.github.com/3955198) is a non-interactive but
 faster minute visualization based on [node-canvas](https://github.com/LearnBoost/node-canvas).
 
+![](http://farm9.staticflickr.com/8468/8150771592_514125731f_o.png)
+
+[weekgram.js](https://gist.github.com/2410842) draws keystroke frequency per
+minute for a week, showing patterns in sleeping hours, etc.
+
 ## How to Use it
 
 Download the binary (see below), and run it. It'll record keystrokes at `~/Documents/minute/keystrokes.log` in a
