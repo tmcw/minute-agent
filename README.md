@@ -34,6 +34,10 @@ CSV document. In order for this to work, you need to enable access for assistive
 You can compile from source here, but you probably want to just [download a pre-built binary](https://github.com/tmcw/minute-agent/downloads)
 to get this working.
 
+## See Also
+
+* [keylogger-osx](https://github.com/dannvix/keylogger-osx)
+
 ## What it Does, Technically
 
 It fills in a log at `~/Documents/minute/keystrokes.log` with
