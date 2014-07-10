@@ -25,7 +25,7 @@ minute for a week, showing patterns in sleeping hours, etc.
 ## How to Use it
 
 Download the binary (see below), and run it. It'll record keystrokes at `~/Documents/minute/keystrokes.log` in a
-CSV document. In order for this to work, you need to enable `Accessibility` under `Security & Privacy`.
+CSV document. In order for this to work, you need to grant `hihowareyou` `Accessibility` access under `Security & Privacy` of your `System Preferences`.
 
 ![](https://cloud.githubusercontent.com/assets/1551510/3465657/6f4a19e2-026c-11e4-8697-c1065fcbc97b.png)
 
