@@ -36,6 +36,7 @@ to get this working.
 
 ## See Also
 
+* [keycaster](https://github.com/keycastr/keycastr) seems to try to do the same thing
 * [keylogger-osx](https://github.com/dannvix/keylogger-osx)
 
 ## What it Does, Technically
