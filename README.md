@@ -29,6 +29,8 @@ CSV document. In order for this to work, you need to grant `hihowareyou` `Access
 
 ![](https://cloud.githubusercontent.com/assets/1551510/3465657/6f4a19e2-026c-11e4-8697-c1065fcbc97b.png)
 
+**Remember**: when you upgrade OSX, your accessibility permissions can get wonky. Remember to re-enable access after updating.
+
 ## Developers
 
 You can compile from source here, but you probably want to just [download a pre-built binary](https://github.com/tmcw/minute-agent/downloads)
